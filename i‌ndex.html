@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styling/carousel.css">
+        <link rel="stylesheet" href="../jquery-ui-1.12.1.custom/jquery-ui.min.css">
+        <script src="../jquery-ui-1.12.1.custom/external/jquery/jquery.js"></script>
+        <script src="../jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+    </head>
+    <body>
+        <div id="frame">
+            <div id="slider">
+               <div class="photo"></div>
+            </div>
+
+             <div id="control">
+                 <button id="left"></button>
+                 <ul id="indicators"></ul>
+                 <button id="right"></button>
+            </div>
+
+            <div id="viewSlide"></div>
+
+            <div id="editbar">
+                <div id="input">
+                    <input type="text" placeholder="Enter path or URL">
+                    <input type="submit" value="Add">
+                    <p>Drag to adjust</p>
+                </div>
+
+                <ul></ul>
+
+                <div id="remove">
+                    <div id="trash">
+                        <p>Drag or double click to delete</p>
+                    </div>
+                    <!--<img id="trash" src="images/trash.png">-->
+                    <button id="refresh">Clear</button>
+                </div>
+            </div>
+
+             <p class="edit">edit slideshow / esc</p>
+        </div>
+        <div id="data"></div>
+
+
+
+        <script src="js/carousel.js"></script>
+    </body>
+</html>

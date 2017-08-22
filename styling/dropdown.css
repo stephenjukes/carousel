@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+#dropdown {
+  display: none;
+  width: 250px;
+  border: 1px solid #666;
+  border-radius: 5px;
+  padding: 10px;
+  overflow: auto;
+  background: white;
+}
+
+#dropdown > * {
+    font: 14px/20px Arial;
+    color: #555;
+}
+
+#handle {
+    width: 250px;
+    margin-top: -12px;
+    padding: 10px;
+    border: 1px solid #666;
+    border-radius: 0 0 12px 12px;
+    text-align: center;
+    font: bold 15px Arial;
+    color: #555;
+    background: orange;
+}
+
+#handle:hover {
+    cursor: pointer;
+    background: #adf;
+}
+
+input {
+  display: inline-block;
+  margin: 5px 0;
+  max-width: 65%;
+}
+
+li {
+    height: 70px;
+    width: 100px;
+    font: 14px/70px Arial;
+    color: gray;
+    list-style: none;
+    margin-left: -40px;
+}
+
+li span {
+    margin-left: 120px;
+}
+
+#trash {
+    margin: 30px auto;
+    height: 30px;
+    width: 30px;
+    background: url('images/trash.png') no-repeat center;
+    background-size: contain;
+}
+
+#data * {
+    display: block;
+}
